@@ -136,3 +136,48 @@ body {
   font-weight: 800;
   font-family: "Raleway", sans-serif;
 }
+/* user section start */
+
+#usersection {
+  width: 1140px;
+  height: 342px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 100px;
+
+  align-items: center;
+}
+#usersectiondiv1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  margin: 0;
+}
+#usersectiondiv2 {
+  display: flex;
+  margin: 0;
+  gap: 15px;
+}
+.usersectiondiv_3 {
+  width: 366.67px;
+  height: 243px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.usersectiondiv_4 {
+  display: flex;
+  margin-left: 10px;
+  width: 40px;
+}
+.usersectiondiv_5 {
+  margin-left: 10px;
+}
+.usersectiondiv_6 {
+  margin-left: 10px;
+  display: flex;
+  gap: 10px;
+}
