@@ -5,22 +5,21 @@
 body {
   max-width: 1440px;
   width: 100%;
+  margin: 0 auto;
 }
 
 /* all font */
 
 .inter {
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+
   font-weight: 400;
-  font-style: normal;
 }
 
 .raleway {
   font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+
+  font-weight: 700;
 }
 
 /* utilty class */
@@ -44,7 +43,8 @@ body {
 
 /* hero section start */
 #heroSection {
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   height: 698px;
   background-image: url("/Assets/Hero-bg.png");
   background-repeat: no-repeat;
@@ -87,4 +87,52 @@ body {
   font-size: 60px;
   font-weight: 600;
   text-align: center;
+}
+/* action section start */
+
+#actionsection {
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  height: 328px;
+
+  margin-top: 100px;
+  justify-content: space-between;
+}
+#actiondiv1 {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#actiondiv2 {
+  margin: 0;
+}
+/* productive section start */
+#produtive {
+  width: 1140px;
+  height: 306px;
+  background-color: #4d47ff21;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  align-items: center;
+  border-radius: 20px;
+}
+#produtivediv1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+}
+.pdc1 {
+  color: #2323c7;
+  font-size: 70px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: -30px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
 }
